@@ -173,7 +173,7 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
+  padding-top: calc(6rem + 106px);
   padding-bottom: 6rem;
 }
 
@@ -187,10 +187,10 @@ header.masthead h2 {
   font-family: 'Lato';
 }
 
-@media (min-width: 992px) {
+@media (min-width: 492px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
+    padding-top: calc(0rem + 106px);
+    padding-bottom: 0rem;
   }
   header.masthead h1 {
     font-size: 4.75em;
@@ -364,7 +364,7 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-image: url("../img/mountains.png");  
+   
   background-color: #491217;
   border-color: #491217;
   
