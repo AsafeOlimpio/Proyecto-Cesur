@@ -58,8 +58,8 @@
         callbacks: {
             open: function () {
                 $('.carousel-season').carousel({
-    interval: 5000
-});
+                    interval: 5000
+                });
                 console.log('Content open');
                 console.log(this.content); // Direct reference to your popup element
             },
